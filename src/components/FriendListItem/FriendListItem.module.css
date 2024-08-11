@@ -1,0 +1,13 @@
+.item {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.online {
+  color: green;
+}
+.offline {
+  color: red;
+}

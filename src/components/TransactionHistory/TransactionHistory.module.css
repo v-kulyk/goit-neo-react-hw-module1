@@ -1,0 +1,27 @@
+.transactionHistory {
+  margin: 0 auto;
+  width: 600px;
+  border-collapse: collapse;
+}
+
+.transactionHistory thead > tr {
+  background-color: darkslategrey;
+  color: white;
+}
+
+.transactionHistory tbody tr:nth-child(odd) {
+  background-color: white;
+}
+.transactionHistory tbody tr:nth-child(even) {
+  background-color: lightgrey;
+}
+.transactionHistory th,
+.transactionHistory td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.typeCell {
+  text-transform: capitalize;
+}
